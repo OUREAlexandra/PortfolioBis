@@ -1,0 +1,547 @@
+
+/*NAVBAR________________________________________________________________________________________*/
+.nav-link{
+  font-size: 20px;
+  font-family: 'Texturina', serif;
+  text-transform: uppercase;
+}
+/*END NAVBAR________________________________________________________________________________________*/
+
+
+/*INDEX BODY________________________________________________________________________________________*/
+.ellipse {
+  background:yellow;
+  border-radius:100%;
+  width:150px;
+  height:150px;
+  position: absolute;
+}
+
+/* .button {
+  background-color: transparent;
+  border: 2px solid #ffbb33;
+
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.button5 {border-radius: 50%;} */
+
+/* .container-banner{
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: left
+  
+} */
+
+.title-banner{
+  font-size: 60px;
+  color: white;
+  text-shadow: 0px 3px 6px #00000029;
+  font-family: 'Texturina', serif;
+}
+
+.text-color-one{
+  color: rgb(59, 52, 52);
+}
+
+/*LIENS RS ET CV________________________________________________________________________________________*/
+.btn-linkedin{
+  color: white;
+  background-color: #19649b;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn-github{
+  margin-left: 3%;
+  color: #fff;
+  background-color: #14191d;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+.btn-cv{
+  margin-left: 3%;
+  color: #fff;
+  background-color: #ffbb33 ;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.fa-linkedin{
+  color: white;
+  font-size: 20px;
+}
+
+.fa-file-alt{
+  color: #fff;
+}
+
+.fa-github{
+color: #fff;
+font-size: 20px;
+}
+
+.btn-text{
+  color: white;
+  font-weight: bold;
+  font-family: 'Work Sans', sans-serif; 
+  font-size: 18px;
+}
+/*FIN LIENS RS ET CV________________________________________________________________________________________*/
+
+
+/*ABOUT________________________________________________________________________________________*/
+.contain-about{
+  margin-top: 3%;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.row-about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-about{
+  margin-bottom: 3%;
+  text-transform: uppercase;
+  font-family: 'Texturina', serif;
+  /* font-weight: bold; */
+  color: rgb(59, 52, 52);
+}
+
+.text-about{
+  font-family: 'Roboto', sans-serif;
+}
+
+.first{
+  margin-top: 8%;
+  padding-top:20px ;
+  padding-bottom:40px ;
+
+}
+/*FIN ABOUT________________________________________________________________________________________*/
+
+
+/* .banner{
+      margin-left: 80px;
+} */
+
+/* .container-button{
+  text-align: center;
+  margin-top: 3%;
+} */
+
+/* .container-button .btn-github:hover {
+  background-color: #2f363b;
+}
+.container-button .btn-linkedin:hover {
+  background-color: #1f7abb;
+}
+.container-button .btn-cv:hover {
+  background-color: #f5952f;
+} */
+
+
+/* .fa-download:hover{
+  color: #fff;
+} */
+
+
+
+/* .title{
+  font-family: 'Work Sans', sans-serif;
+  
+} */
+
+
+/*PROJETS________________________________________________________________________________________*/
+.second{
+  margin-top: 8%;
+  padding-top:20px ;
+  padding-bottom:40px ; 
+}
+/*FIN PROJETS________________________________________________________________________________________*/
+
+
+/*DESIGNS________________________________________________________________________________________*/
+.third{
+  margin-top: 8%;
+}
+/*FIN DESIGNS________________________________________________________________________________________*/
+
+
+/*CONTACT________________________________________________________________________________________*/
+.contact100-form-title{
+  font-family: 'Texturina', serif;
+  font-size: 30px;
+}
+
+.validate-input{
+  font-family: 'Roboto', sans-serif;
+}
+/*FIN CONTACT________________________________________________________________________________________*/
+
+
+/*CARD________________________________________________________________________________________*/
+.img{
+  width: 286px;
+  height: 180px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.container-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1%;
+  
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+    box-shadow: 0px 3px 6px #00000029;
+    margin-bottom: 10%;
+}
+
+.modal-text{
+  text-align: left;
+}
+.icon-tech{
+    margin: auto;
+  font-size: 25px;
+
+}
+
+.link{
+  margin: auto;
+}
+
+.contact{
+  margin-top: 100px;
+}
+
+.btn-card{
+  margin-top: 10% ;
+}
+.title-card{
+  margin-bottom: 3%;
+  font-family: 'Texturina', serif;
+  
+}
+
+.card-title{
+  margin-top: 20px;
+  text-decoration: underline;
+  font-size: 23px;
+}
+/*FIN CARD________________________________________________________________________________________*/
+
+
+/*techno*/
+.fa-html5{
+  color: #ED730E;
+}
+
+.fa-css3-alt{
+  color: #0485E0;
+
+}
+
+.card{
+  border-radius: 15px;
+}
+
+.fa-php{
+  color: #678BE0;
+
+}
+
+.fa-js-square{
+  color: #f7df1d;
+  
+}
+
+.fa-bootstrap{
+  color: #563d7c;
+
+}
+.fa-symfony{
+  color: black;
+
+}
+.fa-react{
+  color: #61dbfb;
+
+}
+/*Button*/
+.read-more{
+  font-family: 'Roboto', sans-serif;
+}
+  
+  .bubbly-button {
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #ffbb33 ;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+
+  }
+
+  #myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  color:#ffbb33; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 15px; /* Rounded corners */
+  font-size: 40px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color:  #ffbb33; /* Add a dark-grey background on hover */
+  color: #fff;
+}
+
+  
+  
+  .bubbly-button:focus {
+    outline: 0;
+  }
+  .bubbly-button:before, .bubbly-button:after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 140%;
+    height: 100%;
+    left: -20%;
+    z-index: -1000;
+    transition: all ease-in-out 0.5s;
+    background-repeat: no-repeat;
+  }
+  .bubbly-button:before {
+    display: none;
+    top: -75%;
+    background-image: radial-gradient(circle, #E60932  20%, transparent 20%), radial-gradient(circle, transparent 20%, #E60932  20%, transparent 30%), radial-gradient(circle, #E60932  20%, transparent 20%), radial-gradient(circle, #E60932  20%, transparent 20%), radial-gradient(circle, transparent 10%, #E60932  15%, transparent 20%), radial-gradient(circle, #E60932  20%, transparent 20%), radial-gradient(circle, #E60932  20%, transparent 20%), radial-gradient(circle, #E60932  20%, transparent 20%), radial-gradient(circle, #E60932  20%, transparent 20%);
+    background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
+  }
+  .bubbly-button:after {
+    display: none;
+    bottom: -75%;
+    background-image: radial-gradient(circle, #E60932  20%, transparent 20%), radial-gradient(circle, #E60932  20%, transparent 20%), radial-gradient(circle, transparent 10%, #E60932  15%, transparent 20%), radial-gradient(circle, #E60932  20%, transparent 20%), radial-gradient(circle, #E60932  20%, transparent 20%), radial-gradient(circle, #E60932  20%, transparent 20%), radial-gradient(circle, #E60932  20%, transparent 20%);
+    background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
+  }
+  .bubbly-button:active {
+    transform: scale(0.9);
+    background-color: #fd214a;
+    box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);
+  }
+  .bubbly-button.animate:before {
+    display: block;
+    animation: topBubbles ease-in-out 0.75s forwards;
+  }
+  .bubbly-button.animate:after {
+    display: block;
+    animation: bottomBubbles ease-in-out 0.75s forwards;
+  }
+  
+  @keyframes topBubbles {
+    0% {
+      background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+    }
+    50% {
+      background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
+    }
+    100% {
+      background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
+      background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
+  }
+  @keyframes bottomBubbles {
+    0% {
+      background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
+    }
+    50% {
+      background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
+    }
+    100% {
+      background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
+      background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
+  }
+  
+
+  .footer {
+  background-color: #FAFCFF;
+  padding: 20px 0;
+  text-align: center;
+}
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin: auto;
+}
+ul.social-network li {
+  display: inline;
+  margin: 0 10px;
+}
+
+/* footer social icons */
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+.social-network a.icoTwitter:hover {
+  background-color: #33ccff;
+}
+.social-network a.icoMedium:hover {
+  background-color: #00AB6C;
+}
+.social-network a.icoQuora:hover {
+  background-color: #AA2200;
+}
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+.social-network a.icoInstagram:hover {
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f09433", endColorstr="#bc1888", GradientType=1);
+}
+
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i, .social-network a.icoMedium:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+  color: #fff;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  font-size: 22px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 60px;
+  text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #fff;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-circle a {
+  background-color: #CCD8EA;
+}
+
+@media screen and (max-width: 500px) {
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+}
+@media screen and (max-width: 450px) {
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .social-circle li i {
+    margin: 0;
+    line-height: 40px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 350px) {
+  ul.social-network li {
+    display: inline;
+    margin: 0 2px;
+  }
+
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .social-circle li i {
+    margin: 0;
+    line-height: 40px;
+    text-align: center;
+  }
+}
