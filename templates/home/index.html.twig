@@ -38,7 +38,7 @@
 			<img src="https://cdn.pixabay.com/photo/2020/12/18/16/56/laptop-5842509_960_720.jpg" class="img-fluid" alt="développeur web">
 		</div>
         <div class="col-lg-5 col-md-5 col-sm-10 pl-5">
-			<h1 class="title-banner text-warning"><span class="text-color-one">A</span>LEXANDRA,<br>développeuse<br>web<br></h1>
+			<h1 class="title-banner"><span class="text-color-one">A</span>LEXANDRA<br><hr /><span class="text-color-one">D</span>éveloppeuse<br>Full stack<br></h1>
 			{# <h1 class="title-banner name">Alexandra,</h1>
 			<h1 class="title-banner name">développeuse web junior,</h1>
 				<h2 class="title-banner">Prête à faire mes preuves</h2>
@@ -57,7 +57,7 @@
 		</div>
 	</div>
 </div>
-<section class="first bg-warning">
+<section class="first">
 	<div class="container contain-about bg-light" id="about">
 		<div class="row">
 			
@@ -91,17 +91,11 @@
 			</div>
 			<div class="col-lg6 col-md-6 col-sm-12 mt-5">
 				<h1 class=" title-about text-center about-me">
-					À propos de moi
+					<span class="text-color-two">À</span> propos de moi
 				</h1>
 				<p class="text-about mt-4 text-center">
-					Actuellement en reconversion professionnel dans le développement web, je recherche un stage de 4 à 6
-					mois.
-
-					Dans un premier temps pour perfectionner mes compétences et par la suite passer le RNCP développeur
-					web.
-
-					Ma motivation et ma soif de connaissance seront à coup sûr, un atout pour réaliser mes projets et
-					apporter une plus value à votre entreprise.
+					J'ai redéfini aujourd'hui mon projet professionnel autour du développement web et souhaite donc perfectionner 
+					mes compétences au cours d'un stage de 6 mois en tant que Développeuse full stack. 
 				</p>
 
 			</div>
@@ -109,20 +103,20 @@
 
 	</div>
 
-</section>
+{# </section>
 <div class="container-fluid text-center second" id="project">
-	<h1 class="title title-card text-warning"><span class="text-color-one">M</span>es projets</h1>
+	<h1 class="title title-section text-warning"><span class="text-color-one">M</span>es projets</h1>
 	<div class="row d-flex justify-content-center ">
 		{% for project in projects %}
 		<div class="col-lg-3 col-md-6 col-sm-12 container-card">
 			<div class="card" style="width: 18rem;">
-				<img class="card-img-top img" src="{{ project.img[0].url }}" alt="Card image cap">
+				<img class="card-img-top img" src="{{ project.img[0].url }}" alt="Mon projet {{project.name}}">
 				<div class="card-body">
-					<h5 class="card-title">{{ project.name }}</h5>
+					<h5 class="card-title mb-3">{{ project.name }}</h5>
 					<p class="card-text">{% autoescape false %} {{ project.description|striptags|u.truncate(50, ' ...')
 						}} {%
 						endautoescape %}</p>
-					<button type="button" class="bubbly-button btn-card bg-warning" data-toggle="modal"
+					<button type="button" class="bubbly-button btn-card bg-warning btn-text" data-toggle="modal"
 						data-target="#modal-{{project.id}}">En
 						savoir plus</button>
 				</div>
@@ -143,7 +137,7 @@
 							</ol>
 							<div class="carousel-inner">
 								<div class="carousel-item active">
-									<img class="d-block w-100" src="{{project.img[0].url}}" alt="{{project.name}}">
+									<img class="img text-center" src="{{project.img[0].url}}" alt="{{project.name}}">
 								</div>
 								{% for i in 1..project.img|length-1 %}
 								<div class="carousel-item">
@@ -174,9 +168,12 @@
 							endautoescape %}</p>
 					</div>
 					<div class="modal-footer">
-						{% for i in 0..project.techno|length-1 %}
-						<p class="icon-tech">{{project.techno[i].imgUrl|raw}}</p>
-						{% endfor %}
+						<div class="contenair-tec">
+							<p class="tec">Technologies :</p>
+							{% for i in 0..project.techno|length-1 %}
+							<p class="icon-tech">{{project.techno[i].imgUrl|raw}}</p>
+							{% endfor %}
+						</div>
 					</div>
 					<div class="modal-footer">
 						<a class="link" href="{{project.url}}" target="_blank"><i class="fas fa-link"></i> Lien du
@@ -195,7 +192,7 @@
 	</div>
 </div>
 <div class="container-fluid text-center third" id="design">
-	<h1 class="title title-card text-warning"><span class="text-color-one">M</span>es designs</h1>
+	<h1 class="title title-section text-warning"><span class="text-color-one">M</span>es designs</h1>
 	<div class="row d-flex justify-content-center">
 		{% for design in designs %}
 		<div class="card" style="width: 18rem;">
@@ -336,5 +333,5 @@
 					class="fab fa-github"></i></a>
 		</li>
 	</ul>
-</div>
+</div> #}
 {% endblock %}

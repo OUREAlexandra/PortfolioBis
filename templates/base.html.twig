@@ -8,17 +8,15 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     {% block stylesheets %}{% endblock %}
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Texturina&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="{{asset('asset/css/main.css')}}" rel="stylesheet">
     <link href="{{asset('asset/css/style.css')}}" rel="stylesheet">
     <link href="{{asset('asset/css/util.css')}}" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Signika:wght@500&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway:ital,wght@1,100&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -44,6 +42,8 @@
         crossorigin="anonymous"></script>
     {% block javascripts %}
     {% endblock %}
+
+    {% include '_footer.html.twig' %}
 </body>
 
 </html>
