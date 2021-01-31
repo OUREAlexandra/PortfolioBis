@@ -27,16 +27,16 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
             <li class="nav-item mr-5">
-              <a class="nav-link active text-warning" aria-current="page" href="#about"><span class="text-color-one">À</span> propos</a>
+              <a class="nav-link active" aria-current="page" href="{{path('home')}}"><span class="text-color-one">À</span> propos</a>
             </li>
             <li class="nav-item mr-5">
-              <a class="nav-link text-warning" href="#project">Projets</a>
+              <a class="nav-link" href="{{path('projets')}}">Mes projets</a>
             </li>
+            {# <li class="nav-item mr-5">
+              <a class="nav-link" href="#design">Design</a>
+            </li> #}
             <li class="nav-item mr-5">
-              <a class="nav-link text-warning" href="#design">Design</a>
-            </li>
-            <li class="nav-item mr-5">
-              <a class="nav-link text-warning" href="#contact">Me contacter</a>
+              <a class="nav-link" href="{{path('contact')}}">Me contacter</a>
             </li>
           </ul>
         </div>

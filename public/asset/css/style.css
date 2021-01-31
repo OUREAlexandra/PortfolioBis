@@ -1,10 +1,22 @@
-
 /*NAVBAR________________________________________________________________________________________*/
 .nav-link{
   font-size: 20px;
-  font-family: 'Texturina', serif;
+  font-family: 'Indie Flower', cursive;
   text-transform: uppercase;
 }
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #DF3A01;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #DF3A01;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgb(59, 52, 52);
+}
+
 /*END NAVBAR________________________________________________________________________________________*/
 
 
@@ -17,39 +29,20 @@
   position: absolute;
 }
 
-/* .button {
-  background-color: transparent;
-  border: 2px solid #ffbb33;
-
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-}
-
-.button5 {border-radius: 50%;} */
-
-/* .container-banner{
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: left
-  
-} */
 
 .title-banner{
   font-size: 60px;
-  color: white;
+  color: #DF3A01;
   text-shadow: 0px 3px 6px #00000029;
-  font-family: 'Texturina', serif;
+  font-family: 'Indie Flower', cursive;
 }
 
 .text-color-one{
   color: rgb(59, 52, 52);
+}
+
+.text-color-two{
+  color: #DF3A01;
 }
 
 /*LIENS RS ET CV________________________________________________________________________________________*/
@@ -72,7 +65,7 @@
 .btn-cv{
   margin-left: 3%;
   color: #fff;
-  background-color: #ffbb33 ;
+  background-color: #DF3A01 ;
   padding: 10px;
   border-radius: 10px;
   text-align: center;
@@ -95,7 +88,7 @@ font-size: 20px;
 .btn-text{
   color: white;
   font-weight: bold;
-  font-family: 'Work Sans', sans-serif; 
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
 }
 /*FIN LIENS RS ET CV________________________________________________________________________________________*/
@@ -104,7 +97,7 @@ font-size: 20px;
 /*ABOUT________________________________________________________________________________________*/
 .contain-about{
   margin-top: 3%;
-  box-shadow: 0px 3px 6px #00000029;
+  box-shadow: 0px 3px 6px #DF3A01;
   border-radius: 15px;
   padding: 20px;
 }
@@ -118,54 +111,23 @@ font-size: 20px;
 .title-about{
   margin-bottom: 3%;
   text-transform: uppercase;
-  font-family: 'Texturina', serif;
+  font-family: 'Indie Flower', cursive;
   /* font-weight: bold; */
   color: rgb(59, 52, 52);
 }
 
 .text-about{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
 }
 
 .first{
   margin-top: 8%;
   padding-top:20px ;
   padding-bottom:40px ;
-
 }
 /*FIN ABOUT________________________________________________________________________________________*/
-
-
-/* .banner{
-      margin-left: 80px;
-} */
-
-/* .container-button{
-  text-align: center;
-  margin-top: 3%;
-} */
-
-/* .container-button .btn-github:hover {
-  background-color: #2f363b;
-}
-.container-button .btn-linkedin:hover {
-  background-color: #1f7abb;
-}
-.container-button .btn-cv:hover {
-  background-color: #f5952f;
-} */
-
-
-/* .fa-download:hover{
-  color: #fff;
-} */
-
-
-
-/* .title{
-  font-family: 'Work Sans', sans-serif;
-  
-} */
 
 
 /*PROJETS________________________________________________________________________________________*/
@@ -186,52 +148,88 @@ font-size: 20px;
 
 /*CONTACT________________________________________________________________________________________*/
 .contact100-form-title{
-  font-family: 'Texturina', serif;
+  font-family: 'Indie Flower', cursive;
   font-size: 30px;
+  color: #DF3A01;
 }
 
 .validate-input{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 /*FIN CONTACT________________________________________________________________________________________*/
 
 
 /*CARD________________________________________________________________________________________*/
+.title-section{
+  margin-bottom: 3%;
+  font-family: 'Indie Flower', cursive;
+}
+
 .img{
-  width: 286px;
-  height: 180px;
+  width: 50px;
+  height: 50px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
 
-.container-card{
+.card{
+  box-shadow: 0px 3px 6px #DF3A01;
+}
+
+/* .container-card{
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 1%;
-  
-}
+} */
 
-.card{
+/* .card{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 1%;
     box-shadow: 0px 3px 6px #00000029;
     margin-bottom: 10%;
+} */
+
+.project-card{
+  display: flex;
+  justify-content: center;
+}
+
+.card-title{
+  font-family: 'Indie Flower', cursive;
+  text-decoration: underline;
+  font-size: 40px;
+  font-weight: bold;
+  color: #DF3A01;
+}
+
+.card-text{
+  font-family: 'Raleway', sans-serif;
+}
+
+.card-content{
+  font-family: 'Raleway', sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+/* .modal-title{
+  font-family: 'Texturina', serif;
 }
 
 .modal-text{
   text-align: left;
-}
-.icon-tech{
-    margin: auto;
-  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+} */
 
-}
-
-.link{
+.link-bottom{
   margin: auto;
+  color: #DF3A01;
+}
+.link-bottom:hover{
+  color:rgba(45, 186, 247, 0.2);
 }
 
 .contact{
@@ -241,28 +239,29 @@ font-size: 20px;
 .btn-card{
   margin-top: 10% ;
 }
-.title-card{
-  margin-bottom: 3%;
-  font-family: 'Texturina', serif;
-  
-}
 
-.card-title{
-  margin-top: 20px;
-  text-decoration: underline;
-  font-size: 23px;
+.arrow-next{
+  color: #DF3A01;
 }
 /*FIN CARD________________________________________________________________________________________*/
 
 
 /*techno*/
+.tech{
+  font-size: 15px;
+  font-weight: bold;
+}
+.icon-tech{
+  margin: auto;
+  font-size: 25px;
+}
+
 .fa-html5{
   color: #ED730E;
 }
 
 .fa-css3-alt{
   color: #0485E0;
-
 }
 
 .card{
@@ -271,40 +270,165 @@ font-size: 20px;
 
 .fa-php{
   color: #678BE0;
-
 }
 
 .fa-js-square{
   color: #f7df1d;
-  
 }
 
 .fa-bootstrap{
   color: #563d7c;
-
 }
+
 .fa-symfony{
   color: black;
-
 }
+
 .fa-react{
   color: #61dbfb;
-
 }
+
+.twig{
+  color: green;
+  font-size: 20px;
+}
+
+.icon-tech{
+  display:inline-block;
+  margin-left: 3vh;
+}
+/*FIN TECHNOS_______________________________________________________________________*/
+
+
+/*MODAL______________________________________________________________________________*/
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin:0;
+}
+.modal-content {    
+  height: 100%;
+  border-radius: 0;
+  color:white;
+  overflow:auto;
+}
+.close
+{
+  color:white ! important;
+  opacity:1.0;
+} 
+#first-child
+{
+  top:0;
+  left:0;
+  background-color: yellowgreen;
+}
+#second-child
+{
+  top:0;
+  left:50%;
+  background-color: #E6537D;
+  color:black;
+}
+#third-child
+{
+  top:50%;
+  left:0;
+  background-color: crimson;
+}
+#fourth-child
+{
+  top:50%;
+  left:50%;
+  background-color: lightseagreen;
+  color:black;
+}
+.big-box
+{
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  color:white;
+}
+.big-box h2
+{
+  text-align: center;
+  margin-top: 20%;
+  padding: 20px;
+  width: 100%;
+  font-size: 1.8em;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+cursor:pointer;
+}
+
+@media screen and (max-width: 46.5em) 
+{
+  .big-box h2
+  {
+    font-size:16px;
+    padding-left:0px;
+    
+  }
+}
+
+@media screen and (max-width: 20.5em) 
+{
+  .big-box h2
+  {
+    font-size:12px;
+    padding-left:0px;
+    margin-top:30%;
+    }
+}
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin:0;
+}
+.modal-content {
+  
+  height: 100%;
+  border-radius: 0;
+  font-size: 3em;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+}
+.modal-content-one
+{
+  background-color:yellowgreen;
+}
+.modal-content-two
+{
+  background-color:#E6537D;
+}
+.modal-content-three
+{
+  background-color:crimson;
+}
+.modal-content-four
+{
+  background-color:lightseagreen;
+}
+/*FIN MODAL______________________________________________________________________________*/
+
 /*Button*/
 .read-more{
   font-family: 'Roboto', sans-serif;
 }
   
   .bubbly-button {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     display: inline-block;
-    font-size: 15px;
+    font-size: 20px;
     padding: 10px;
     -webkit-appearance: none;
     appearance: none;
-    background-color: #ffbb33 ;
-    color: #fff;
+    background-color: #DF3A01 ;
+    color: white;
     border-radius: 20px;
     border: none;
     cursor: pointer;
@@ -321,7 +445,7 @@ font-size: 20px;
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  color:#ffbb33; /* Text color */
+  color:#DF3A01; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 15px; /* Rounded corners */
@@ -329,7 +453,7 @@ font-size: 20px;
 }
 
 #myBtn:hover {
-  background-color:  #ffbb33; /* Add a dark-grey background on hover */
+  background-color:  #f06d41;
   color: #fff;
 }
 

@@ -54,6 +54,11 @@ class Project
      */
     private $techno;
 
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $slug;
+
     public function __construct()
     {
         $this->img = new ArrayCollection();
@@ -187,5 +192,17 @@ class Project
 
     public function findAllbyDesc()
     {
+    }
+
+    public function getSlug(): ?string
+    {
+        return $this->slug;
+    }
+
+    public function setSlug(string $slug): self
+    {
+        $this->slug = $slug;
+
+        return $this;
     }
 }

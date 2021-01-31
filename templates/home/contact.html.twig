@@ -1,0 +1,54 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+<div class="bg-contact100">
+    <div class="container-contact100">
+        <div class="wrap-contact100">
+            <div class="conainer-fluid">
+                <img src="https://cdn.pixabay.com/photo/2015/10/31/12/04/communication-1015376__340.jpg" style="margin-top: 30%;" alt="IMG">
+            </div>
+
+            {{ form_start(form) }}
+            <span class="contact100-form-title name text-center">
+                <span class="text-color-one">C</span>ontactez moi
+            </span>
+
+            <div class="wrap-input100 validate-input" data-validate="Name is required">
+                {{ form_row(form.firstname) }}
+
+                <span class="focus-input100"></span>
+                <span class="symbol-input100">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </span>
+            </div>
+            <div class="wrap-input100 validate-input" data-validate="Name is required">
+                {{ form_row(form.lastname) }}
+
+                <span class="focus-input100"></span>
+                <span class="symbol-input100">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </span>
+            </div>
+            <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                {{ form_row(form.email) }}
+                <span class="focus-input100"></span>
+                <span class="symbol-input100">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                </span>
+            </div>
+            <div class="wrap-input100 validate-input" data-validate="Message is required">
+                {{ form_row(form.message) }}
+                <span class="focus-input100"></span>
+            </div>
+            <div class="container-contact100-form-btn">
+                <button class="bubbly-button">
+                    Envoyer
+                </button>
+            </div>
+            {{ form_end(form) }}
+        </div>
+    </div>
+</div>
+{% endblock %}

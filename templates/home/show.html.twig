@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+{% block metadescription %}{{project.description |slice(0, 200)}}{% endblock %}
+{% block title %}{{project.name}}{% endblock %}
+{% block body %}
+<div class="container container-one-product">
+	<div class="row">
+		<div class="col-lg-6">
+			<img src="{{project.img}}" alt="{{project.name}}" class="img-fluid img-shadow" width="100%">
+		</div>
+		<div class="col-lg-6">
+			<div class="presentation">
+				<h1 class="title-product">{{project.name}}</h1>
+				<p class="description-title">DESCRIPTI<span class="small-ellipse">ON</span> </p>
+				<p class="lead">{{project.description}}</p>
+			</div>
+		</div>
+		<div class="container advice col-lg-5 mt-5">
+			<div class="container">
+				<p class="title-advice">LE CONSEIL DU PARISIEN<span class="framboise">.</span></p>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+{% endblock %}
